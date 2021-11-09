@@ -1,4 +1,4 @@
-https://skarachevcev.github.io/2-front-end/students/sviatoslav_karachevtsev/8_figma/
+https://skarachevcev.github.io/2-front-end/students/sviatoslav_karachevtsev/7_figma/
 
 Fonts: Open sans, gilroy-bold;
 Font-size: usual: 18px, h1: 47px, h2: 34px, instrument-title: 14px;
