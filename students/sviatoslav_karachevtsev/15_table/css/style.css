@@ -123,7 +123,49 @@
     position: absolute;
 }
 
-.button {}
+.table__nav {
+    text-align: center;
+    vertical-align: auto;
+}
+
+.table__nav:nth-child(2) {
+    text-align: left;
+}
+
+.search {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #DAE1EC;
+}
+
+.search::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    content: 'Search';
+    background-image: url("../images/search.svg");
+    display: inline-block;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    padding-left: 40px;
+}
+
+.button {
+    background-color: #0A65FF;
+    width: 148px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
 
 .status__btn {
     position: relative;
@@ -188,3 +230,43 @@
     left: 0;
     bottom: 0;
 }
+
+.negative {
+    color: #E01A1A;
+}
+
+.positive {
+    color: #008400;
+}
+
+.neutral {
+    color: #606F89;
+}
+
+.table_footnav {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #606F89;
+}
+
+.activity {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 45px;
+}
+
+.activity span {
+    font-weight: 600;
+}
+
+.rowcount {
+    color: #606F89;
+    border: none;
+}
+
+/* color
+#606F89
+*/
